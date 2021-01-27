@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    height:100vh;
+    width:100%;
+    background-color: #f2f1ee;
+}
+
+.header2 {
+    width:100%;
+    height:75px;
+    position:fixed;
+    background-color: #f2f1ee;
+    background: linear-gradient(#f2f1ee, 85%, transparent);
+    z-index: 2;
+}
+.logo2 {
+    background: url("images/utendahl.png") no-repeat;
+    background-size: 100%;
+    width: 200px;
+    height: 42.5px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.biglist {
+    color: #140b06;
+    position: relative;
+    font-family: Adobe Garamond Pro;
+    font-weight: 600;
+    letter-spacing: -.065em;
+    text-align: center;
+    font-size: 250px;
+    line-height: 250px;
+    width: 55vw;
+    padding: 0;
+    top: 10vh;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+.bigitem {
+  height: 250px;
+/*  display: inline-block;*/
+
+}
+
+.bigitem:hover {
+    font-style: italic;
+    text-decoration: line-through;
+    webkit-transition: all 300ms ease;
+    moz-transition: all 300ms ease;
+    ms-transition: all 300ms ease;
+    o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+
+
+#allisontxt {
+
+  
+}
+
+
+#madisonimg {
+    background: url("images/madison.png") no-repeat;
+    z-index: 10;
+    display: none;
+    position: fixed;
+    bottom: 40vh;
+    right: 2vw;
+    width: 470px;
+    height: 470px;
+    background-size: 100%;
+}
+
+
+#allisonimg {
+    background: url("images/allison.png") no-repeat;
+    z-index: 10;
+    display: none;
+    position: fixed;
+    bottom: 30vh;
+    left: 3vw;
+    width: 470px;
+    height: 470px;
+    background-size: 100%;
+}
+
+#zoeimg {
+    background: url("images/zoe.png") no-repeat;
+    z-index: 10;
+    display: none;
+    position: fixed;
+    bottom: 12vh;
+    right: 7vw;
+    width: 470px;
+    height: 470px;
+    background-size: 100%;
+}
+
+#toriimg {
+    background: url("images/tori.png") no-repeat;
+    z-index: 10;
+    display: none;
+    position: fixed;
+    bottom: 25vh;
+    left: 7vw;
+    width: 470px;
+    height: 470px;
+    background-size: 100%;
+}
+
+#graceimg {
+    background: url("images/grace.png") no-repeat;
+    z-index: 10;
+    display: none;
+    position: fixed;
+    bottom: 40vh;
+    right: 3vw;
+    width: 470px;
+    height: 470px;
+    background-size: 100%;
+}
+
+#gillianimg {
+    background: url("images/gillian.png") no-repeat;
+    z-index: 10;
+    display: none;
+    position: fixed;
+    bottom: 35vh;
+    left: 2vw;
+    width: 470px;
+    height: 470px;
+    background-size: 100%;
+}
+
+#hawaimg {
+    background: url("images/hawa.png") no-repeat;
+    z-index: 10;
+    display: none;
+    position: fixed;
+    bottom: 20vh;
+    right: 7vw;
+    width: 470px;
+    height: 470px;
+    background-size: 100%;
+}
+
+
+.nav {
+    position: fixed;
+    font-family: Adobe Garamond Pro;
+    font-size: 30px;
+    color: #140b06;
+    letter-spacing: -.075em;
+    text-decoration: none;
+    cursor: pointer;
+    height: 43px;
+    z-index: 3;
+}
+
+/*.nav:hover {
+    font-style: italic;
+}*/
+
+#about {
+    background: url("images/about.png") no-repeat;
+    background-size: 100%;
+    top: 10px;
+    left: 10px;
+    width: 120px;
+}
+
+#about:hover {
+    background: url("images/abouthover.png") no-repeat;
+    background-size: 100%;
+}
+
+#work {
+    background: url("images/work.png") no-repeat;
+    background-size: 100%;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+}
+
+#work:hover {
+    background: url("images/workhover.png") no-repeat;
+    background-size: 100%;
+}
+
+#team {
+    background: url("images/team.png") no-repeat;
+    background-size: 100%;
+    bottom: 13px;
+    left: 10px;
+    width: 100px;
+}
+
+#team:hover {
+    background: url("images/teamhover.png") no-repeat;
+    background-size: 100%;
+}
+
+#contact {
+    background: url("images/contact.png") no-repeat;
+    background-size: 100%;
+    bottom: 13px;
+    right: 10px;
+    width: 170px;
+}
+
+#contact:hover {
+    background: url("images/contacthover.png") no-repeat;
+    background-size: 100%;
+}
